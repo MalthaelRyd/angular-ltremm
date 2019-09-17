@@ -1,3 +1,24 @@
-p {
-  font-family: Lato;
+
+nav {
+
+  
+}
+nav ul{
+
+}
+
+nav ul li{
+list-style: none;
+}
+
+nav ul li a{
+float: left;
+text-decoration: none;
+color: black;
+box-shadow: 1px 1px 4px black ;
+border: ;
+background-color: #ccc;
+margin: 3px;
+padding: 3px;
+
 }

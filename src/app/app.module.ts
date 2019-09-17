@@ -8,12 +8,14 @@ import {AppRoutingModule} from './app-routing.module';
 import { UsersComponent } from './users/users.component';
 import { UserService } from './users/user.service';
 import { CreateUserComponent } from './users/create-user/create-user.component';
+import { UpdateComponent } from './users/update/update.component';
+import { DeleteUserComponent } from './users/delete-user/delete-user.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule , AppRoutingModule,
   HttpClientModule
   ],
-  declarations: [ AppComponent, UsersComponent, CreateUserComponent ],
+  declarations: [ AppComponent, UsersComponent, CreateUserComponent, UpdateComponent, DeleteUserComponent ],
   
   bootstrap:    [ AppComponent ],
   

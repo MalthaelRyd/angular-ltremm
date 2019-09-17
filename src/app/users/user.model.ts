@@ -27,3 +27,21 @@ export interface ResponseCreate {
   id: string;
   createdAt: Date;
 }
+// Get User
+
+export interface ResponseUser{
+  data: User;
+}
+
+//Update
+
+export interface RequestUpdate {
+  name: string;
+  job: string;
+}
+
+export interface ResponseUpdate {
+  name: string;
+  job: string;
+  updatedAt: Date;
+}
